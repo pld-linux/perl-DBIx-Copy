@@ -9,7 +9,7 @@ Summary(pl):	Modu³ Perla DBIx::Copy - do kopiowania zawarto¶ci jednej bazy danyc
 Name:		perl-DBIx-Copy
 Version:	0.02
 Release:	3
-License:	GPL/Artistic
+License:	GPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	e453a98258a27fe6704811d075746862
