@@ -8,7 +8,7 @@ Summary:	DBIx::Copy - For copying database content from one db to another
 Summary(pl):	Modu³ DBIx::Copy - do kopiowania zawarto¶ci jednej bazy danych do innej
 Name:		perl-DBIx-Copy
 Version:	0.02
-Release:	2
+Release:	3
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
