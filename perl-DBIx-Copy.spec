@@ -3,8 +3,8 @@
 %bcond_without	tests	# Do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	DBIx
-%define	pnam	Copy
+%define		pdir	DBIx
+%define		pnam	Copy
 Summary:	DBIx::Copy Perl module - for copying database content from one db to another
 Summary(pl):	Modu³ Perla DBIx::Copy - do kopiowania zawarto¶ci jednej bazy danych do innej
 Name:		perl-DBIx-Copy
