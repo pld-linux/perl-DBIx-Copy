@@ -6,7 +6,7 @@
 %define		pdir	DBIx
 %define		pnam	Copy
 Summary:	DBIx::Copy Perl module - for copying database content from one db to another
-Summary(pl):	Modu≥ Perla DBIx::Copy - do kopiowania zawarto∂ci jednej bazy danych do innej
+Summary(pl.UTF-8):   Modu≈Ç Perla DBIx::Copy - do kopiowania zawarto≈õci jednej bazy danych do innej
 Name:		perl-DBIx-Copy
 Version:	0.02
 Release:	4
@@ -27,9 +27,9 @@ For copying a DB.  Future versions might handle mirroring as well,
 but it's generally better if the source might send over a transaction
 log somehow.
 
-%description -l pl
-Modu≥ s≥uøy do kopiowania baz danych. ByÊ moøe przysz≥e wersje bÍd±
-obs≥ugiwa≥y takøe mirroring, ale lepiej, je∂li ºrÛd≥o moøe wysy≥aÊ log
+%description -l pl.UTF-8
+Modu≈Ç s≈Çu≈ºy do kopiowania baz danych. Byƒá mo≈ºe przysz≈Çe wersje bƒôdƒÖ
+obs≈Çugiwa≈Çy tak≈ºe mirroring, ale lepiej, je≈õli ≈∫r√≥d≈Ço mo≈ºe wysy≈Çaƒá log
 transakcji.
 
 %prep
