@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# Do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	DBIx
 %define		pnam	Copy
+%include	/usr/lib/rpm/macros.perl
 Summary:	DBIx::Copy Perl module - for copying database content from one db to another
 Summary(pl.UTF-8):	Moduł Perla DBIx::Copy - do kopiowania zawartości jednej bazy danych do innej
 Name:		perl-DBIx-Copy
@@ -14,18 +14,19 @@ License:	GPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	e453a98258a27fe6704811d075746862
+URL:		http://search.cpan.org/dist/DBIx-Copy/
 BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
 BuildRequires:	perl-DBI
 %endif
-BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-For copying a DB.  Future versions might handle mirroring as well,
-but it's generally better if the source might send over a transaction
-log somehow.
+For copying a DB. Future versions might handle mirroring as well, but
+it's generally better if the source might send over a transaction log
+somehow.
 
 %description -l pl.UTF-8
 Moduł służy do kopiowania baz danych. Być może przyszłe wersje będą
