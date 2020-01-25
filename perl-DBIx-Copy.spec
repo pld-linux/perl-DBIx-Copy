@@ -4,7 +4,6 @@
 
 %define		pdir	DBIx
 %define		pnam	Copy
-%include	/usr/lib/rpm/macros.perl
 Summary:	DBIx::Copy Perl module - for copying database content from one db to another
 Summary(pl.UTF-8):	Moduł Perla DBIx::Copy - do kopiowania zawartości jednej bazy danych do innej
 Name:		perl-DBIx-Copy
